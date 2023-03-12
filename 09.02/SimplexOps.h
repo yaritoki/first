@@ -21,7 +21,7 @@ namespace OptLib
 			protected:
 				Scalar scalar;
 			};
-			
+
 			template<class Scalar>
 			struct minus
 			{
@@ -69,38 +69,38 @@ namespace OptLib
 			template<class Scalar>
 			struct del1
 			{
-				/*constexpr*/
+				constexpr
 					del1(Scalar value) :scalar{ value } {};
 				template< class T = void>
 				T operator ()(const T& ihs)
 				{
 
-					return  scalar/ihs;
+					return  scalar / ihs;
 				}
 			protected:
 				Scalar scalar;
 			};
 
-			template< class T =void >
-			struct Abs
+			
+			struct abs
 			{
-				/*constexpr*/
-					
-				T operator()(const T& ihs)
+				template< class T  >	
+				constexpr T operator()(const T& ihs)
 				{
-					return abs(ihs);
+					return std::abs(ihs);
 				}
 			};
 
 
-			template< class T =void>
-			struct Sqrt
+			
+			struct sqrt
 			{
-				/*constexpr*/
-
-					T operator()(const T& ihs)
+				
+				
+				template< class T>
+				constexpr T operator()(const T& ihs)
 				{
-					return sqrt(ihs);
+					return std::sqrt(ihs);
 				}
 			};
 
@@ -110,27 +110,64 @@ namespace OptLib
 			template <class T = void>
 			using plus = std::plus<T>;
 
-			template <class T=void>
-			struct del
-			{
-				/*constexpr*/
-				T operator ()(const T& rhs, const T& ihs)
-				{
+			template <class T = void>
+			using minus = std::minus<T>;
 
-					return rhs / ihs;
-				}
-			};
+			template <class T = void>
+			using multi = std::multiplies<T>;
+
+
+			template <class T = void>
+			using del = std::divides<T>;
+
+
 
 		}
 	}
-}
 
+
+	
+	/*template <size_t dim>
+	PointVal<dim> operator +(const PointVal<dim>& p1, const PointVal<dim>& p2)
+	{
+		return PointVal<dim>{p1.p + p2.p, p1.val + p2.val};
+	};
+	template < size_t dim>
+	PointVal<dim> operator -(const PointVal<dim>& p1, const PointVal<dim>& p2)
+	{
+		return PointVal<dim>{p1.p - p2.p, p1.val - p2.val};
+	};
+	template <size_t dim>
+	PointVal<dim> operator *(const PointVal<dim>& p1, const PointVal<dim>& p2)
+	{
+		return PointVal<dim>{p1.p* p2.p, p1.val* p2.val};
+	};
+	/*PointVal<dim> operator *(const PointVal<dim>& p1, double scalar)
+	{
+		return PointVal<dim>{p1* scalar, p1.val};
+	};
+	PointVal<dim> operator *( double scalar, const PointVal<dim>& p1)// со скаляром не работает
+	{
+		return p1* scalar;
+	};
+	PointVal<dim> operator +(const PointVal<dim>& p1, double scalar)
+	{
+		return PointVal<dim>{p1 + scalar, p1.val};
+	};
+	PointVal<dim> operator +(double scalar, const PointVal<dim>& p1)
+	{
+		return p1 + scalar;
+	};
+	PointVal<dim> operator -(const PointVal<dim>& p1, double scalar)
+	{
+		return PointVal<dim>{p1- scalar, p1.val};
+	};
+	PointVal<dim> operator -(double scalar, const PointVal<dim>& p1)
+	{
+		return PointVal<dim>{scalar-p1, p1.val};
+	};*/
+}
 /*
-template <class T = void>
-Point<dim> operator +(const PointVal<dim>&p1,const PointVal<dim>&p2)
-{
-return PointVal<dim>{p1.p+p2.p,p1.val+p2.val};
-};
 +double val не добавляется
 -
 -double аналогично

@@ -1,121 +1,195 @@
 ﻿  09.02.cpp
 D:\С++\09.02\Simplex.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-D:\С++\09.02\Simplex.h(151,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(164): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "PawPoint<dim>"
-D:\С++\09.02\Simplex.h(151,1): error C2610: "int PawPoint<dim>::RawPoint(void)": не является специальной функцией-членом или оператором сравнения, для которых можно установить значение по умолчанию.
-D:\С++\09.02\Simplex.h(151,1): warning C4183: RawPoint: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
-D:\С++\09.02\Simplex.h(152,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
-D:\С++\09.02\Simplex.h(152,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(152,1): error C2238: непредвиденные лексемы перед ";"
-D:\С++\09.02\Simplex.h(153,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(153,22): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(153,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(154,11): error C2061: синтаксическая ошибка: идентификатор "Point"
-D:\С++\09.02\Simplex.h(154,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(155,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(155,25): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(155,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(155,1): error C2535: PawPoint<dim>::PawPoint(const int): функция-член уже определена или объявлена
-D:\С++\09.02\Simplex.h(153): message : см. объявление "PawPoint<dim>::PawPoint"
-D:\С++\09.02\Simplex.h(160,11): error C2833: "operator Point" не является распознаваемым оператором или типом
-D:\С++\09.02\Simplex.h(160,1): error C2059: синтаксическая ошибка: newline
-D:\С++\09.02\Simplex.h(161,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(153,33): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(153,36): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(153,33): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(153,36): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(154,28): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(154,41): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(154,28): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(154,41): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(155,36): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(155,39): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(155,36): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(155,39): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(158,10): error C3861: P: идентификатор не найден
-D:\С++\09.02\Simplex.h(158,10): error C2065: P: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(166,33): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(176): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "PointVal<dim>"
-D:\С++\09.02\Simplex.h(171,11): error C2061: синтаксическая ошибка: идентификатор "Point"
-D:\С++\09.02\Simplex.h(171,1): error C2535: PointVal<dim>::PointVal(void): функция-член уже определена или объявлена
-D:\С++\09.02\Simplex.h(169): message : см. объявление "PointVal<dim>::PointVal"
-D:\С++\09.02\Simplex.h(171,48): error C2760: синтаксическая ошибка: непредвиденный элемент "<". Ожидается "{"
-D:\С++\09.02\Simplex.h(171,52): error C2059: синтаксическая ошибка: >
-D:\С++\09.02\Simplex.h(171,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(171,69): error C2059: синтаксическая ошибка: ,
-D:\С++\09.02\Simplex.h(171,71): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(171,81): error C2059: синтаксическая ошибка: {
-D:\С++\09.02\Simplex.h(171,81): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(172,22): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(172,53): error C2760: синтаксическая ошибка: непредвиденный элемент "<". Ожидается "{"
-D:\С++\09.02\Simplex.h(172,57): error C2059: синтаксическая ошибка: >
-D:\С++\09.02\Simplex.h(172,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,63): error C2059: синтаксическая ошибка: ,
-D:\С++\09.02\Simplex.h(172,65): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,75): error C2059: синтаксическая ошибка: {
-D:\С++\09.02\Simplex.h(172,75): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(174,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(174,28): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(171,1): fatal  error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+D:\С++\09.02\Simplex.h(263,4): warning C4984: "if constexpr" — расширение языка C++17
+D:\С++\09.02\Simplex.h(287,3): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "OptLib::RawSetOfPoints<count,point>"
+D:\С++\09.02\Stream.h(11,3): warning C4984: "if constexpr" — расширение языка C++17
   test.cpp
 D:\С++\09.02\Simplex.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-D:\С++\09.02\Simplex.h(151,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(164): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "PawPoint<dim>"
-D:\С++\09.02\Simplex.h(151,1): error C2610: "int PawPoint<dim>::RawPoint(void)": не является специальной функцией-членом или оператором сравнения, для которых можно установить значение по умолчанию.
-D:\С++\09.02\Simplex.h(151,1): warning C4183: RawPoint: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
-D:\С++\09.02\Simplex.h(152,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
-D:\С++\09.02\Simplex.h(152,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(152,1): error C2238: непредвиденные лексемы перед ";"
-D:\С++\09.02\Simplex.h(153,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(153,22): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(153,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(154,11): error C2061: синтаксическая ошибка: идентификатор "Point"
-D:\С++\09.02\Simplex.h(154,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(155,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(155,25): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(155,1): error C2590: RawPoint: список инициализации базовых классов и членов может быть только в конструкторе
-D:\С++\09.02\Simplex.h(155,1): error C2535: PawPoint<dim>::PawPoint(const int): функция-член уже определена или объявлена
-D:\С++\09.02\Simplex.h(153): message : см. объявление "PawPoint<dim>::PawPoint"
-D:\С++\09.02\Simplex.h(160,11): error C2833: "operator Point" не является распознаваемым оператором или типом
-D:\С++\09.02\Simplex.h(160,1): error C2059: синтаксическая ошибка: newline
-D:\С++\09.02\Simplex.h(161,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(153,33): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(153,36): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(153,33): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(153,36): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(154,28): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(154,41): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(154,28): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(154,41): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(155,36): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(155,39): error C3861: p: идентификатор не найден
-D:\С++\09.02\Simplex.h(155,36): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(155,39): error C2065: p: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(158,10): error C3861: P: идентификатор не найден
-D:\С++\09.02\Simplex.h(158,10): error C2065: P: необъявленный идентификатор
-D:\С++\09.02\Simplex.h(166,33): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(176): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "PointVal<dim>"
-D:\С++\09.02\Simplex.h(171,11): error C2061: синтаксическая ошибка: идентификатор "Point"
-D:\С++\09.02\Simplex.h(171,1): error C2535: PointVal<dim>::PointVal(void): функция-член уже определена или объявлена
-D:\С++\09.02\Simplex.h(169): message : см. объявление "PointVal<dim>::PointVal"
-D:\С++\09.02\Simplex.h(171,48): error C2760: синтаксическая ошибка: непредвиденный элемент "<". Ожидается "{"
-D:\С++\09.02\Simplex.h(171,52): error C2059: синтаксическая ошибка: >
-D:\С++\09.02\Simplex.h(171,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(171,69): error C2059: синтаксическая ошибка: ,
-D:\С++\09.02\Simplex.h(171,71): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(171,81): error C2059: синтаксическая ошибка: {
-D:\С++\09.02\Simplex.h(171,81): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(172,22): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(172,53): error C2760: синтаксическая ошибка: непредвиденный элемент "<". Ожидается "{"
-D:\С++\09.02\Simplex.h(172,57): error C2059: синтаксическая ошибка: >
-D:\С++\09.02\Simplex.h(172,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,63): error C2059: синтаксическая ошибка: ,
-D:\С++\09.02\Simplex.h(172,65): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(172,75): error C2059: синтаксическая ошибка: {
-D:\С++\09.02\Simplex.h(172,75): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\С++\09.02\Simplex.h(174,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\С++\09.02\Simplex.h(174,28): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\С++\09.02\Simplex.h(171,1): fatal  error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+D:\С++\09.02\Simplex.h(263,4): warning C4984: "if constexpr" — расширение языка C++17
+D:\С++\09.02\Simplex.h(287,3): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "OptLib::RawSetOfPoints<count,point>"
+D:\С++\09.02\Stream.h(11,3): warning C4984: "if constexpr" — расширение языка C++17
+D:\С++\09.02\Stream.h(61,4): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "point" (или приемлемое преобразование отсутствует)
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(475,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(443,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(425,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(407,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(389,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(371,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(353,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(335,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(317,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(298,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(272,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(253,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(219,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(201,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(195,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(189,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(184,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+D:\С++\09.02\Stream.h(56,10): message : или       "Stream &OptLib::operator <<(Stream &,const OptLib::RawSetOfPoints<count,point> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const OptLib::RawSetOfPoints<count,point> &)': не удалось вывести аргумент шаблон для 'const OptLib::RawSetOfPoints<count,point> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(38,10): message : или       "Stream &OptLib::operator <<(Stream &,const OptLib::PointVal<dim> &)"
+D:\С++\09.02\Stream.h(57): message : "Stream &OptLib::operator <<(Stream &,const OptLib::PointVal<dim> &)": не удается вывести аргумент шаблон для "pouit"
+D:\С++\09.02\Stream.h(23,10): message : или       "Stream &OptLib::operator <<(Stream &,const std::array<point,count> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const std::array<point,count> &)': не удалось вывести аргумент шаблон для 'const std::array<point,count> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(8,10): message : или       "Stream &OptLib::operator <<(Stream &,const std::array<double,dim> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const std::array<double,dim> &)': не удалось вывести аргумент шаблон для 'const std::array<double,dim> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\xstring(5366,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\memory(1875,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\memory(3557,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty2,_Dx2> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(681,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "const char *"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(725,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "char"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(761,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "const char *"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(806,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "char"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(844,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+D:\С++\09.02\Stream.h(61,4): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'const _Elem *' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(887,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+D:\С++\09.02\Stream.h(61,4): message : "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": в шаблон параметр "_Elem" неоднозначен
+D:\С++\09.02\Stream.h(61,4): message : может быть "point"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,4): message : или       "char"
+D:\С++\09.02\Stream.h(61,4): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для '_Elem' из 'point'
+          with
+          [
+              point=pointval
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(923,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "const signed char *"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(929,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "signed char"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(934,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "const unsigned char *"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(940,31): message : или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "unsigned char"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(998,9): message : или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+D:\С++\09.02\Stream.h(57): message : "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.35.32213\include\ostream(1075,32): message : или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+D:\С++\09.02\Stream.h(61,12): message : инициализация: невозможно преобразовать "point" в "const std::error_code &"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Причина: невозможно преобразовать "point" в "const std::error_code"
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+D:\С++\09.02\Stream.h(8,10): message : или       "Stream &OptLib::operator <<(Stream &,const std::array<double,dim> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const std::array<double,dim> &)': не удалось вывести аргумент шаблон для 'const std::array<double,dim> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(23,10): message : или       "Stream &OptLib::operator <<(Stream &,const std::array<point,count> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const std::array<point,count> &)': не удалось вывести аргумент шаблон для 'const std::array<point,count> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(38,10): message : или       "Stream &OptLib::operator <<(Stream &,const OptLib::PointVal<dim> &)"
+D:\С++\09.02\Stream.h(57): message : "Stream &OptLib::operator <<(Stream &,const OptLib::PointVal<dim> &)": не удается вывести аргумент шаблон для "pouit"
+D:\С++\09.02\Stream.h(56,10): message : или       "Stream &OptLib::operator <<(Stream &,const OptLib::RawSetOfPoints<count,point> &)"
+D:\С++\09.02\Stream.h(61,4): message : 'Stream &OptLib::operator <<(Stream &,const OptLib::RawSetOfPoints<count,point> &)': не удалось вывести аргумент шаблон для 'const OptLib::RawSetOfPoints<count,point> &' из 'point'
+          with
+          [
+              point=pointval
+          ]
+D:\С++\09.02\Stream.h(61,4): message : при попытке сопоставить список аргументов "(Stream, point)"
+          with
+          [
+              Stream=std::ostream
+          ]
+          and
+          [
+              point=pointval
+          ]
+D:\С++\09.02\test.cpp(149): message : выполняется компиляция ссылки на экземпляр шаблон функции "Stream &OptLib::operator <<<std::ostream,3,pointval>(Stream &,const OptLib::RawSetOfPoints<3,pointval> &)"
+          with
+          [
+              Stream=std::ostream,
+              pointval=pointval
+          ]
   Создание кода...

@@ -21,4 +21,9 @@ int main()
    
     
     std::cout << "*************************\n";
+    OptLib::testMatrix();
+    OptLib::testMatrixM();
+    //OptLib::testDet();
+    OptLib::testsr();
+    OptLib::testdis();
 }

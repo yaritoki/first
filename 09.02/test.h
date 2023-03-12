@@ -13,4 +13,9 @@ namespace OptLib
 	void testMultpoint();
 	void testscal();
 	void testdel();
+	void testMatrix();
+	void testMatrixM();
+	//void testDet();
+	void testsr();
+	void testdis();
 }
